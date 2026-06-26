@@ -1,6 +1,7 @@
 {
   "Name": "AIBAT-ROUTING",
   "GlobalProxy": "true",
+  "RouteOrder": "block-proxy-direct",
   "RemoteDNSType": "DoH",
   "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
   "RemoteDNSIP": "1.1.1.1",
@@ -35,5 +36,6 @@
   "BlockSites": [],
   "BlockIp": [],
   "DomainStrategy": "IPIfNonMatch",
-  "FakeDNS": "false"
+  "FakeDNS": "false",
+  "UseChunkFiles": "true"
 }
