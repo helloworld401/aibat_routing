@@ -1,0 +1,39 @@
+{
+  "Name": "AIBAT-ROUTING",
+  "GlobalProxy": "true",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://cloudflare-dns.com/dns-query",
+  "RemoteDNSIP": "1.1.1.1",
+  "DomesticDNSType": "DoU",
+  "DomesticDNSDomain": "dns.quad9.net",
+  "DomesticDNSIP": "9.9.9.9",
+  "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
+  "Geositeurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
+  "LastUpdated": "",
+  "DnsHosts": {
+    "cloudflare-dns.com": "1.1.1.1",
+    "dns.quad9.net": "9.9.9.9"
+  },
+  "DirectSites": [
+    "domain:ru",
+    "domain:xn--p1ai",
+    "domain:su",
+    "domain:moscow"
+  ],
+  "DirectIp": [
+    "geoip:ru",
+    "geoip:private",
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "127.0.0.0/8",
+    "169.254.0.0/16",
+    "224.0.0.0/4"
+  ],
+  "ProxySites": [],
+  "ProxyIp": [],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
+}
